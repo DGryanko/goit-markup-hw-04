@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+
+    <!-- Шрифты -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=fallback" >    
+    
+    <!-- Иконка -->
+    <link rel="icon" href="./Img/WS.png" type="image/x-icon">
+
+    <!-- Мои стили -->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <!-- Нормализатор --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+</head>
+<pody>
+    <!-- Шапка -->
+    <header class="page-header" >
+        <div class="container flexbox">
+            <a href="./index.html" class="logo"> Web<span class="logo header">Studio</span> </a>
+            <nav class="menu_nav">
+                
+                <ul class="list menu-list">
+                    <li class="menu-item"> <a href="./index.html" class="link">Студия</a></li>
+                    <li class="menu-item"> <a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li class="menu-item"> <a href="#" class="link">Контакты</a></li>
+                </ul>                         
+                
+            </nav>
+            <ul class="email_tel">
+                <li><a href="mailto:info@devstudio.com" class="link email">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link tel">+38 096 111 11 11</a></li>
+            </ul>          
+        </div>
+    </header>
+    <main>        
+        <section class="section">
+            <h1 class="visually-hidden">Портфолио</h1>
+            <div class="container">
+                <h2 class="visually-hidden">Фильтры</h2>
+                <ul class="buttons">
+                    <li class="li-filter-button"><button class="filter-button">Все</button></li>
+                    <li class="li-filter-button"><button class="filter-button">Веб-сайты</button></li>
+                    <li class="li-filter-button"><button class="filter-button">Приложения</button></li>
+                    <li class="li-filter-button"><button class="filter-button">Дизайн</button></li>
+                    <li class="li-filter-button"><button class="filter-button">Маркетинг</button></li>
+                </ul>   
+                <h2 class="visually-hidden">Наши Работы</h2>     
+                <ul class="ul-list portfolio-list">
+                    <li class="gallery-item">
+                        <a href><img src="./Img/laptop.jpg" alt="laptop" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Технокряк</p>
+                            <p class="description-mosaic">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/poster.jpg" alt="poster" width="370" height="370"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Постер New Orlean vs Golden Star</p>
+                            <p class="description-mosaic">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/restourant.jpg" alt="restourant" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Ресторан Seafood</p>
+                            <p class="description-mosaic">Приложение</p>
+                        </div>                            
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/headphones.jpg" alt="headphones" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Проект Prime</p>
+                            <p class="description-mosaic">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/boxes.jpg" alt="boxes" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Проект Boxes</p>
+                            <p class="description-mosaic">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/mac.jpg" alt="mac" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Inspiration has no Borders</p>
+                            <p class="description-mosaic">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/book.jpg" alt="book" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Издание Limited Edition</p>
+                            <p class="description-mosaic">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="gallery-item">
+                        <a href><img src="./Img/lab.jpg" alt="label" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Проект LAB</p>
+                            <p class="description-mosaic">Маркетинг</p>
+                        </div>
+                    </li>            
+                    <li class="gallery-item">
+                        <a href><img src="./Img/business.jpg" alt="business" width="370" height="294"></a>
+                        <div class="card-content">
+                            <p class="name-mosaic">Growing Business</p>
+                            <p class="description-mosaic">Приложение</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container page-footer">
+            <a href="./index.html" class="logo" aria-label="main page link"> Web<span class="logo footer">Studio</span> </a>
+            <address class="footer-links">
+                <span class="location" >г. Киев, пр-т Леси Украинки, 26</span>
+            <ul class="list "> 
+                <li><a class="title" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="title" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+            </address>
+        </div>
+    </footer>
+</pody>
+</html>
